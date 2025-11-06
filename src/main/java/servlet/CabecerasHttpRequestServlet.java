@@ -45,7 +45,6 @@ public class CabecerasHttpRequestServlet extends HttpServlet {
                 String cabecera = headersNames.nextElement();
                 out.println("<li>" + cabecera + " : " + req.getHeader(cabecera) + "</li>");
             }
-
             out.println("</ul>");
             out.println("</body>");
             out.println("</html>");
